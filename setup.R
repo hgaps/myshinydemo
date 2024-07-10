@@ -15,3 +15,10 @@ shinylive::export(appdir = "myapp", destdir = "docs")
 
 httpuv::runStaticServer("docs", port=8008)
 
+# Adding first commit 
+
+usethis::use_git()
+
+# Pushing to remote repository
+
+usethis::use_github()
